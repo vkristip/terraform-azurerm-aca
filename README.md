@@ -21,10 +21,8 @@ For the most basic Azure Container App set up, use the below `terraform.tfvars` 
 ```
 # Define your variables
 resource_group_name              = "my-aca-rg"
-location                         = "uksouth"
-create_container_app_environment = true
+location                         = "useast"
 container_app_environment_name   = "my-aca-env"
-create_container_app             = true
 container_app_name               = "my-nginx-app"
 container_app_containers = [
   {
